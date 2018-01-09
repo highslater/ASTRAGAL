@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html>
+
+<!--
+<ul>
+    <li>THINGS TO DO:</li>
+    <li>Scroll data accross a static image.</li>
+    <li></li>
+    <li>make buttons get bigger on hover</li>
+    <li></li>
+    <li>Comment and EMMET Code.</li>
+    <li>carousel put captions below</li>
+    <li>Put sample code on codepen for carousel and update modal</li>
+</ul>
+-->
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link href="sticky-footer-navbar.css" rel="stylesheet">
+    <link rel="stylesheet" href="stylesheets.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+</head>
+
+<body data-spy="scroll" data-target="#myNavbar">
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#firstImage"><span style="color:black" class="glyphicon glyphicon-console" aria-hidden="true"></span> <strong>A</strong>stra<strong>G</strong>al<strong style="color: black">____</strong></a>
+            </div>
+            <!--navbar-header-->
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="active"><a href="#firstImage">Home</a></li>
+                    <li><a href="#carousel">Carousel</a></li>
+                    <li><a href="#secondImage">About</a></li>
+                    <li><a href="#thirdImage">Projects</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#fourthImage">Contact</a></li>
+                </ul>
+            </div>
+            <!--collapse navbar-collapse-->
+        </div>
+        <!--container-fluid-->
+    </nav>
+    <!--navClose-->
+
+    <div class="container-fluid" id="firstImage">
+        <div class="jumbotron">
+            <h1 class="text-center"><strong>A</strong>stra<strong>G</strong>al</h1>
+            <hr>
+            <p class="text-center">Web Design Studio</p>
+            <!--MAKE THESE BUTTINS POP OUT WHEN HOVERED OVER-->
+            <div class="btn-group btn-group-lg btn-group-justified" role="group" aria-label="..." id="homePageLinksGroup">
+                <div class="btn-group" role="group">
+                    <a href="https://github.com/highslater">
+                        <button type="button" class="btn btn-default" id="homePageLink"><span class="glyphicon glyphicon-share" aria-hidden="true"></span> Git Hub</button>
+                    </a>
+                </div>
+                <!--btn-group-->
+                <div class="btn-group" role="group">
+                    <a href="http://www.freecodecamp.com/highslater">
+                        <button type="button" class="btn btn-default" id="homePageLink"><span class="glyphicon glyphicon-fire" aria-hidden="true"></span> Free Code Camp</button>
+                    </a>
+                </div>
+                <!--btn-group-->
+                <div class="btn-group" role="group">
+                    <a href="http://codepen.io/highslater/">
+                        <button type="button" class="btn btn-default" id="homePageLink"><span class="glyphicon glyphicon-globe" aria-hidden="true"></span> Code Pen</button>
+                    </a>
+                </div>
+                <!--btn-group-->
+                <div class="btn-group" role="group">
+                    <a href="https://c9.io/highslater">
+                        <button type="button" class="btn btn-default" id="homePageLink"><span class="glyphicon glyphicon-cloud" aria-hidden="true"></span> Cloud 9</button>
+                    </a>
+                </div>
+                <!--btn-group-->
+                <div class="btn-group" role="group">
+                    <a href="https://www.codecademy.com/">
+                        <button type="button" class="btn btn-default" id="homePageLink"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> CodeCademy</button>
+                    </a>
+                </div>
+            </div>
+            <!--btn-group btn-group-lg btn-group-justified-->
+        </div>
+        <!--jumbotron-->
+    </div>
+    <!--container-fluid-->
+
+    <div class="container-fluid" id="carousel">
+        <div class="page-header">
+            <h1 class="text-center">Carousel</h1>
+        </div>
+        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+
+            <ol class="carousel-indicators">
+                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="4"></li>
+            </ol>
+
+            <div class="carousel-inner" role="listbox">
+
+                <div class="item active">
+                    <a href="#thirdImage"><img class="img-responsive center-block" src="images/aperature.png" alt=""></a>
+                    <div class="carousel-caption">first</div>
+                </div>
+
+                <div class="item">
+                    <a href="#thirdImage"><img class="img-responsive center-block" src="images/sample_app.jpg" alt=""></a>
+                    <div class="carousel-caption">second</div>
+                </div>
+
+                <div class="item">
+                    <a href="#thirdImage"><img class="img-responsive center-block" src="images/green_websight.png" alt="">
+                        <div class="carousel-caption">third</div>
+                    </a>
+                </div>
+
+                <div class="item">
+                    <a href="#thirdImage"><img class="img-responsive center-block" src="images/wordpress_linux.jpg" alt=""></a>
+                    <div class="carousel-caption">fourth</div>
+                </div>
+
+                <div class="item">
+                    <a href="#portfolio"><img class="img-responsive center-block" src="images/images_gallery/images/photodune-1062948-nature-xs.jpg" alt=""></a>
+                    <div class="carousel-caption">fifth</div>
+                </div>
+
+            </div>
+            <!--carousel-inner-->
+            <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+        <!--carousel-example-generic-->
+    </div>
+    <!--container-fluid-->
+
+    <div class="container-fluid" id="secondImage">
+        <div class="page-header">
+            <h1 class="">About</h1>
+        </div>
+        <div class="row">
+            <div class="col-md-3 col-md-offset-1 aboutUs">
+                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                <p> Incidunt minima sit cupiditate in blanditiis aperiam asperiores delectus dicta saepe quaerat, facilis laborum tempora mollitia porro ipsa animi numquam omnis veritatis! Voluptates repudiandae dolores impedit commodi praesentium velit reprehenderit, quidem, recusandae voluptate sequi similique fugit exercitationem dicta minima incidunt, necessitatibus blanditiis numquam.</p>
+                <p class="lead">Rerum iure vel, at nam maiores optio fugit, itaque ut nisi.</p>
+                <p>Consequatur vero aut inventore facilis esse, enim, itaque provident. Quam voluptates dolorum et, veritatis, natus optio temporibus quos sunt, asperiores, nihil deserunt ex labore quas laudantium?</p>
+            </div>
+            <div class="col-md-5 col-md-offset-2 aboutUs">
+                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                <p> Adipisci facere dolorem delectus officia debitis, fugiat quos maiores vero sint natus cupiditate beatae est saepe nesciunt architecto explicabo earum fuga ipsa perspiciatis a quasi culpa. Itaque facilis ipsa tempora, cum pariatur rerum rem animi labore, nobis similique consectetur quae optio, commodi, mollitia accusamus quod voluptatum aspernatur. Obcaecati, facilis veritatis tempore voluptas quam rerum, assumenda at aspernatur fuga quae architecto sit debitis, vel quia! Beatae vitae commodi, reiciendis repellendus eos rerum impedit, ipsum quisquam ratione, nisi ullam magni aut atque. At omnis, quia qui! Neque architecto et magni perferendis omnis reprehenderit eum, alias atque tenetur dolore, unde itaque, asperiores eos. Soluta sint eos aliquid est doloremque, voluptatum, impedit voluptatem distinctio ducimus, ullam neque fugiat laudantium iure nesciunt aliquam cum enim tempore quo nemo maiores error exercitationem sapiente. Molestias inventore, similique praesentium error beatae, sequi totam minus adipisci ipsa assumenda quis dolore. Obcaecati, asperiores expedita ratione quod, consectetur deleniti laudantium earum omnis alias autem eum repellat doloremque dicta optio culpa dolorem. Nostrum perferendis debitis, alias quod aperiam vero totam non, nulla iusto molestias, ea, aliquam? Enim iure consequuntur nostrum praesentium aperiam rerum ipsam dicta veritatis, placeat fugiat excepturi vero doloribus dolore, labore recusandae?
+                </p>
+            </div>
+        </div>
+        <!--row-->
+
+        <div class="row">
+            <div class="col-md-10 col-md-offset-1 aboutUs">
+                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                <p> Repellat porro iure ex natus nemo laboriosam dolores repellendus illo facere voluptate, perspiciatis dolore esse sed culpa provident quasi! Animi ea aliquam iusto suscipit, error alias. Dolores aliquid, quo! Natus minus, minima dolor! Fugit maxime ut quas perspiciatis consequuntur et, quibusdam magnam.</p>
+            </div>
+        </div>
+        <!--row-->
+    </div>
+    <!--container-fluid-->
+
+    <div class="container-fluid" id="thirdImage">
+        <!-- MAKE THESE IMAGES POP OUT WHEN HOVERED OVER-->
+        <div class="page-header">
+            <h1 class="text-right">Projects</h1>
+        </div>
+        <div class="row">
+            <div class="col-md-4 col-md-offset-4 projects">
+                <a href="https://highslater.github.io/index.html"><img class="img-responsive" src="images/aperature.png" alt=""></a>
+            </div>
+        </div>
+        <!--row-->
+        <div class="row">
+            <div class="col-md-4 col-md-offset-1 projects">
+                <a href="http://highslater.github.io/green_websight/"><img class="img-responsive" src="images/green_websight.png" alt=""></a>
+            </div>
+            <div class="col-md-4 col-md-offset-2 projects">
+                <a href="https://nameless-castle-sam3.herokuapp.com/"><img class="img-responsive" src="images/sample_app.jpg" alt=""></a>
+            </div>
+        </div>
+        <!--row-->
+        <div class="row">
+            <div class="col-md-4 col-md-offset-4 projects">
+                <a href="#"><img class="img-responsive" src="images/wordpress_linux.jpg" alt=""></a>
+            </div>
+        </div>
+        <!--row-->
+    </div>
+    <!--container-fluid-->
+
+    <div class="container-fluid" id="portfolio">
+        <div class="page-header">
+            <h1 class="text-center"> Web Portfolio</h1>
+        </div>
+        <ul class="row">
+            <li class="col-lg-4 col-md-4 col-sm-3 col-xs-3 portfolio">
+                <img class="img-responsive" src="images/images_gallery/images/photodune-1062948-nature-xs.jpg" alt="">
+            </li>
+            <li class="col-lg-4 col-md-4 col-sm-3 col-xs-3 portfolio">
+                <img class="img-responsive" src="images/images_gallery/images/photodune-1471528-insant-camera-kid-xs.jpg" alt="">
+            </li>
+            <li class="col-lg-4 col-md-4 col-sm-3 col-xs-3 portfolio">
+                <img class="img-responsive" src="images/images_gallery/images/photodune-2360379-colors-xs.jpg" alt="">
+            </li>
+            <li class="col-lg-4 col-md-4 col-sm-3 col-xs-3 portfolio">
+                <img class="img-responsive" src="images/images_gallery/images/photodune-2255072-relaxed-man-xs.jpg" alt="">
+            </li>
+            <li class="col-lg-4 col-md-4 col-sm-3 col-xs-3 portfolio">
+                <img class="img-responsive" src="images/images_gallery/images/photodune-2360571-jump-xs.jpg" alt="">
+            </li>
+            <li class="col-lg-4 col-md-4 col-sm-3 col-xs-3 portfolio">
+                <img class="img-responsive" src="images/images_gallery/images/photodune-2361384-culture-for-business-xs.jpg" alt="">
+            </li>
+            <li class="col-lg-4 col-md-4 col-sm-3 col-xs-3 portfolio">
+                <img class="img-responsive" src="images/images_gallery/images/photodune-2441670-spaghetti-with-tuna-fish-and-parsley-s.jpg" alt="">
+            </li>
+            <li class="col-lg-4 col-md-4 col-sm-3 col-xs-3 portfolio">
+                <img class="img-responsive" src="images/images_gallery/images/photodune-247190-secret-email-xs.jpg" alt="">
+            </li>
+            <li class="col-lg-4 col-md-4 col-sm-3 col-xs-3 portfolio">
+                <img class="img-responsive" src="images/images_gallery/images/photodune-268693-businesswoman-using-laptop-outdoors-xs.jpg" alt="">
+            </li>
+        </ul>
+        <!--row-->
+    </div>
+    <!--container-fluid-->
+
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true"><span class="glyphicon glyphicon-remove-sign"></span></button>
+                    <h4 class="modal-title" id="myModalLabel">Code Solution</h4>
+                </div>
+                <div class="modal-body"></div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">See Code</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid" id="fourthImage">
+        <div class="page-header">
+            <h1 class="text-right">astragal.webdesignstudio</h1>
+        </div>
+        <div class="row">
+            <div class="col-md-3 col-md-offset-2 contact">
+                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium porro, sequi in non vitae eligendi, vero delectus, earum minima rem accusamus error? Alias eveniet iure incidunt modi amet pariatur est fugit illo quos expedita. Officia consequatur deleniti nostrum vero, esse vel et quasi. Aliquid, distinctio necessitatibus debitis esse similique numquam facilis at quae eius illum, temporibus maiores, nobis, repellat amet consectetur fugiat obcaecati dignissimos nihil eum. Quasi, deserunt fugit error laboriosam sapiente soluta, distinctio dolorem numquam quia, dolore placeat libero minus reprehenderit eveniet ipsa ex quidem. Fugit tenetur qui laudantium commodi officiis nesciunt quia totam ipsa! Non consectetur veritatis, debitis doloremque sit ab, magnam officiis eius inventore magni iure sapiente.</p>
+            </div>
+            <div class="col-md-1 col-md-offset-4 contactButton">
+                <div class="btn-group btn-group-lg btn-group-vertical" role="group" aria-label="...">
+                    <button type="button" class="btn btn-custom">Git Hub</button>
+                    <button type="button" class="btn btn-custom">Email</button>
+                    <button type="button" class="btn btn-custom">button 3</button>
+                    <button type="button" class="btn btn-custom">button 4</button>
+                    <button type="button" class="btn btn-custom">button 5</button>
+
+                </div>
+            </div>
+        </div>
+        <!--row-->
+        <div class="row">
+            <div class="col-md-6 col-md-offset-4 contact">
+                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste adipisci delectus suscipit quod, a expedita modi, et aut illum quisquam!</p>
+            </div>
+        </div>
+        <!--row-->
+
+    </div>
+    <!--container-fluid-->
+
+    <footer class="footer">
+        <nav class="navbar navbar-inverse navbarBottom" role="navigation">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav <!--navbar-right-->">
+                        <li><a href="#firstImage">Home</a></li>
+                        <li><a href="#secondImage">About</a></li>
+                        <li><a href="#thirdImage">Projects</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#fourthImage">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            <!--container-fluid-->
+        </nav>
+        <!--navbar navbar-inverse navbarBottom-->
+        <div class="container">
+            <p class="text-muted">Copyright &#169 AstraGal Web Design Studio 2015. All Rights Reserved</p>
+        </div>
+    </footer>
+
+    <script src="javascript/jQueryScripts.js"></script>
+    <script src="scripts.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-71246404-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+</body>
+
+</html>	

@@ -1,0 +1,2 @@
+astragal.byethost7.com [05/Sep/2017:08:47:36 -0500] 213.180.203.57 - - "GET /robots.txt HTTP/1.0" 404 11903 "-" "Mozilla/5.0 (compatible; YandexBot/3.0; +http://yandex.com/bots)"
+astragal.byethost7.com [05/Sep/2017:08:47:46 -0500] 178.154.200.4 - - "GET / HTTP/1.0" 200 19582 "-" "Mozilla/5.0 (compatible; YandexBot/3.0; +http://yandex.com/bots)"

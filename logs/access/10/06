@@ -1,0 +1,3 @@
+astragal.byethost7.com [06/Oct/2016:05:48:54 -0500] 66.249.66.95 - - "GET / HTTP/1.0" 200 19582 "-" "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)"
+astragal.byethost7.com [06/Oct/2016:05:49:04 -0500] 66.249.66.95 - - "GET /stylesheets.css HTTP/1.0" 200 2870 "-" "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)"
+astragal.byethost7.com [06/Oct/2016:12:47:44 -0500] 66.249.66.95 - - "GET /sticky-footer-navbar.css HTTP/1.0" 302 208 "http://astragal.byethost7.com/" "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)"

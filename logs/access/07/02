@@ -1,0 +1,2 @@
+astragal.byethost7.com [02/Jul/2016:00:50:00 -0500] 66.249.66.172 - - "GET / HTTP/1.0" 200 19582 "-" "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)"
+astragal.byethost7.com [02/Jul/2016:00:50:17 -0500] 66.249.66.172 - - "GET /robots.txt HTTP/1.0" 302 208 "-" "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)"

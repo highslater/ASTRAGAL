@@ -1,0 +1,2 @@
+astragal.byethost7.com [02/Jan/2017:07:46:25 -0500] 66.249.64.163 - - "GET /stylesheets.css HTTP/1.0" 200 2870 "http://astragal.byethost7.com/" "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)"
+astragal.byethost7.com [02/Jan/2017:07:46:36 -0500] 66.249.64.163 - - "GET / HTTP/1.0" 200 19582 "-" "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)"

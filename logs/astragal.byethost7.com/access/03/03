@@ -1,0 +1,3 @@
+astragal.byethost7.com [03/Mar/2017:07:49:05 -0500] 66.249.92.26 - - "GET /google09fab7d0870ab524.html HTTP/1.0" 200 53 "-" "Mozilla/5.0 (compatible; Google-Site-Verification/1.0)"
+astragal.byethost7.com [03/Mar/2017:07:49:15 -0500] 66.249.92.25 - - "GET /google33aaf63e8183a88c.html HTTP/1.0" 404 11903 "-" "Mozilla/5.0 (compatible; Google-Site-Verification/1.0)"
+astragal.byethost7.com [03/Mar/2017:09:47:45 -0500] 66.249.66.44 - - "GET /robots.txt HTTP/1.0" 404 11903 "-" "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)"

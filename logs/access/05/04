@@ -1,0 +1,7 @@
+astragal.byethost7.com [04/May/2016:00:46:16 -0500] 66.249.64.222 - - "GET /javascript/jQueryScripts.js HTTP/1.0" 302 208 "-" "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)"
+astragal.byethost7.com [04/May/2016:04:47:25 -0500] 66.249.64.227 - - "GET / HTTP/1.0" 200 19582 "-" "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)"
+astragal.byethost7.com [04/May/2016:09:46:36 -0500] 66.249.64.217 - - "GET /javascript/jQueryScripts.js HTTP/1.0" 302 208 "-" "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)"
+astragal.byethost7.com [04/May/2016:11:46:30 -0500] 66.249.89.117 - - "GET /google09fab7d0870ab524.html HTTP/1.0" 200 53 "-" "Mozilla/5.0 (compatible; Google-Site-Verification/1.0)"
+astragal.byethost7.com [04/May/2016:15:47:39 -0500] 66.249.64.227 - - "GET / HTTP/1.0" 200 19582 "-" "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)"
+astragal.byethost7.com [04/May/2016:19:46:57 -0500] 66.249.64.222 - - "GET /javascript/jQueryScripts.js HTTP/1.0" 302 208 "-" "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)"
+astragal.byethost7.com [04/May/2016:22:46:20 -0500] 66.249.64.217 - - "GET /robots.txt HTTP/1.0" 302 208 "-" "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)"

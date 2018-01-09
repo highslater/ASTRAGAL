@@ -1,0 +1,2 @@
+astragal.byethost7.com [02/Feb/2016:04:46:56 -0500] 66.249.64.217 - - "GET /javascript/jQueryScripts.js HTTP/1.0" 302 208 "-" "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)"
+astragal.byethost7.com [02/Feb/2016:07:47:00 -0500] 66.249.64.222 - - "GET / HTTP/1.0" 200 19582 "-" "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)"
